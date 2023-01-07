@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bloggo-admin/static/css/main.6cdd0ae3.css",
+    "main.js": "/bloggo-admin/static/js/main.db800433.js",
+    "static/media/eye.png": "/bloggo-admin/static/media/eye.15fed0029ba64d5b84f5.png",
+    "static/media/update_symbol.png": "/bloggo-admin/static/media/update_symbol.6c6f90c72aa6445c5004.png",
+    "static/media/thumbtack_white.png": "/bloggo-admin/static/media/thumbtack_white.f2d3b977573ff0e7dd89.png",
+    "static/media/moon_and_stars.png": "/bloggo-admin/static/media/moon_and_stars.e5f6483fd19d66df7b9c.png",
+    "static/media/trashcan.png": "/bloggo-admin/static/media/trashcan.80f61715b1283753df33.png",
+    "static/media/warningcircle.png": "/bloggo-admin/static/media/warningcircle.3113c5f8d619d98a2f65.png",
+    "static/media/butterfly.png": "/bloggo-admin/static/media/butterfly.a241735b49be1863283a.png",
+    "static/media/comment_white.png": "/bloggo-admin/static/media/comment_white.b8f917f6e3ba22a05783.png",
+    "static/media/usericon.png": "/bloggo-admin/static/media/usericon.35c7686dc1248aa2141e.png",
+    "static/media/add.png": "/bloggo-admin/static/media/add.4b14a18229d2e3c5f022.png",
+    "index.html": "/bloggo-admin/index.html",
+    "main.6cdd0ae3.css.map": "/bloggo-admin/static/css/main.6cdd0ae3.css.map",
+    "main.db800433.js.map": "/bloggo-admin/static/js/main.db800433.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cdd0ae3.css",
+    "static/js/main.db800433.js"
+  ]
+}
