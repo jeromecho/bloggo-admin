@@ -1,4 +1,4 @@
-# Bloggo (users frontend)
+# Bloggo (admin frontend)
 
 Admin-facing frontend for bloggo megaproject. 
 
