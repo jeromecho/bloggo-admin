@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bloggo-admin/static/css/main.6cdd0ae3.css",
-    "main.js": "/bloggo-admin/static/js/main.db800433.js",
+    "main.js": "/bloggo-admin/static/js/main.3e65028e.js",
     "static/media/eye.png": "/bloggo-admin/static/media/eye.15fed0029ba64d5b84f5.png",
     "static/media/update_symbol.png": "/bloggo-admin/static/media/update_symbol.6c6f90c72aa6445c5004.png",
     "static/media/thumbtack_white.png": "/bloggo-admin/static/media/thumbtack_white.f2d3b977573ff0e7dd89.png",
@@ -14,10 +14,10 @@
     "static/media/add.png": "/bloggo-admin/static/media/add.4b14a18229d2e3c5f022.png",
     "index.html": "/bloggo-admin/index.html",
     "main.6cdd0ae3.css.map": "/bloggo-admin/static/css/main.6cdd0ae3.css.map",
-    "main.db800433.js.map": "/bloggo-admin/static/js/main.db800433.js.map"
+    "main.3e65028e.js.map": "/bloggo-admin/static/js/main.3e65028e.js.map"
   },
   "entrypoints": [
     "static/css/main.6cdd0ae3.css",
-    "static/js/main.db800433.js"
+    "static/js/main.3e65028e.js"
   ]
 }
