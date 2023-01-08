@@ -36,10 +36,13 @@ const AllPosts: React.FunctionComponent<AllPostsProps> = ({
     // handles requests before they are fully sent out
     axios.interceptors.request.use(
         (config: AxiosRequestConfig) => {
-            const { origin } = new URL(config.url!, apiUrl);
+            const re = /.*:5500/;
+            const origin = re.exec(config.url!)![0];
             const allowedOrigins = [apiUrl];
             // limits the requests I'm able to make to only specified
             //        API URls 
+            console.log(origin)
+            console.log(allowedOrigins)
             if (allowedOrigins.includes(origin)) {
                 const token = localStorage.getItem('token');
                 config.headers!.authorization = `Bearer ${token}`;

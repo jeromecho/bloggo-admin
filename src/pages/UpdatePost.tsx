@@ -53,9 +53,9 @@ const UpdatePost: React.FunctionComponent<UpdatePostProps> = ({
     }, []);
 
     useEffect(() => {
-        console.log(post)
+        console.log(isPublished)
         // TODO - default checks not working
-        console.log(post.is_published)
+        console.log(isPublished)
     });
 
     const getUpdatedPost = () => {
@@ -63,6 +63,7 @@ const UpdatePost: React.FunctionComponent<UpdatePostProps> = ({
             .then(res => {
                 setName(res.data.name);
                 setPost(res.data);
+                setIsPublished(res.data.is_published);
                 // TODO
                 console.log(res.data)
             })
@@ -184,20 +185,19 @@ const UpdatePost: React.FunctionComponent<UpdatePostProps> = ({
                             <div className='radio'>
                                 <input
                                     type='radio' 
-                                    name='draft'
+                                    name='post_option'
                                     onChange={handleIsPublishedChange}
                                     value='false'
-                                    checked={!post.is_published}
+                                    checked={!isPublished}
                                     id='draft'
-                                    required={true}
                                 />
                                 <label htmlFor='draft'>Draft</label>
                             </div> 
                             <div className='radio'>
                                 <input
                                     type='radio' 
-                                    name='is_published'
-                                    checked={post.is_published}
+                                    name='post_option'
+                                    checked={isPublished}
                                     onChange={handleIsPublishedChange}
                                     value='true'
                                     id='publish'

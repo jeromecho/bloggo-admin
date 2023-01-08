@@ -29,7 +29,8 @@ const Dashboard: React.FunctionComponent<DashboardProps> = ({
     axios.interceptors.request.use(
         (config: AxiosRequestConfig) => {
             // defines backend API origin
-            const { origin } = new URL(config.url!, apiUrl);
+            const re = /.*:5500/;
+            const origin = re.exec(config.url!)![0];
             const allowedOrigins = [apiUrl];
             if (allowedOrigins.includes(origin)) {
                 // only allow authorizaiton header to be set for allowed 
